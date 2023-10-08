@@ -239,11 +239,6 @@ header {
 .portfolio-container {
   padding: 0 16px;
 }
-.offer-container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-}
-
 .our-portfolio-document {
   margin-bottom: 72px;
 }
@@ -252,12 +247,13 @@ header {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
   justify-content: space-between;
 }
 
 .offer-list-item {
-  background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
+  background: var(--WHITE, #fff);
   padding: 32px 16px;
   border-top: none;
   border: 1px solid #e7e9fc;
