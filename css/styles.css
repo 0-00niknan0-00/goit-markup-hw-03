@@ -243,6 +243,8 @@ header {
 .offer-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .our-portfolio-document {
   margin-bottom: 72px;
@@ -256,12 +258,6 @@ header {
   justify-content: space-between;
 }
 
-.offer-list-item {
-  background: var(--WHITE, #fff);
-  border-top: none;
-  border: 1px solid #e7e9fc;
-  margin-bottom: 8px;
-}
 .offer-list-item {
   width: calc((100% - 48px) / 3);
 }
