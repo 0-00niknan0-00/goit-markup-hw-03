@@ -162,7 +162,6 @@ header {
 }
 
 .visually-hidden {
-  margin-bottom: 8px;
   margin: -1px;
   white-space: nowrap;
   clip-path: inset(100%);
@@ -176,6 +175,10 @@ header {
   line-height: 1.2em;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.priority-hello-introduction {
+  margin-bottom: 8px;
 }
 
 .hello-list-item {
@@ -202,8 +205,7 @@ header {
 
 .colleagues-bye-introduction,
 .colleagues-bye-paragraph {
-  margin: 0;
-  text-transform: capitalize;
+  text-align: center;
 }
 
 .colleagues-bye-introduction {
@@ -212,6 +214,7 @@ header {
 }
 .colleagues-bye-paragraph {
   font-size: 16px;
+  text-align: center;
 }
 
 .bye-list-item {
@@ -234,7 +237,7 @@ header {
   padding: 0 16px;
 }
 .offer-container {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .our-portfolio-document {
