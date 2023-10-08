@@ -242,6 +242,7 @@ header {
 }
 .offer-container {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .our-portfolio-document {
   margin-bottom: 72px;
@@ -256,13 +257,14 @@ header {
 }
 
 .offer-list-item {
-  width: calc((100% - 48px) / 3);
   background: var(--WHITE, #fff);
   border-top: none;
   border: 1px solid #e7e9fc;
   margin-bottom: 8px;
 }
-
+.offer-list-item {
+  width: calc((100% - 48px) / 3);
+}
 .offer-title,
 .offer-category {
   margin: 8px 0;
