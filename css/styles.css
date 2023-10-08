@@ -218,13 +218,16 @@ header {
 }
 
 .bye-list-item {
+  row-gap: 48px;
   background-color: #ffffff;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
   padding: 32px 0;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
-
+.bye-list-item:not(:last-child) {
+  margin-bottom: 48px;
+}
 .offer-img {
   display: block;
   width: 100%;
@@ -237,7 +240,8 @@ header {
   padding: 0 16px;
 }
 .offer-container {
-  padding: 32px 0px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .our-portfolio-document {
